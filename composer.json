@@ -1,0 +1,27 @@
+{
+    "name": "icequeen/sm",
+    "description": "sm",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "icequeen",
+            "email": "790516255@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "mdanter/ecc": "0.5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "icequeen\\sm\\": "src"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}
